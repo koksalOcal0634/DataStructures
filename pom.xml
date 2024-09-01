@@ -5,11 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-<<<<<<< HEAD
+
     <artifactId>ArrayStackImplementation</artifactId>
-=======
-    <artifactId>LinkedListLogic</artifactId>
->>>>>>> 103dce8e4b2ced57670043575e5f445080f884d1
     <version>1.0-SNAPSHOT</version>
 
     <properties>

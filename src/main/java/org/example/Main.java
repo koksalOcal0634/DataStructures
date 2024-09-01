@@ -4,7 +4,6 @@ package org.example;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
         ArrayStack employeeItems = new ArrayStack(4);
         Employee tr = new Employee("Turkey","Tr",101,"tr@gmail");
         Employee swe = new Employee("Sweden","Swe",55,"swe@gmail");
@@ -21,9 +20,9 @@ public class Main {
         System.out.println("Peek Item :  "  + employeeItems.peek());
 
 
-        }
-    }
-=======
+
+
+
       // create an Employee objects
         Employee koksal = new Employee("Köksal","Öcal",26,"koksalocal06@");
         Employee gamze = new Employee("Gamze","Öcal",21,"gamzeocal06@");
@@ -72,4 +71,4 @@ public class Main {
 
     }
 }
->>>>>>> 103dce8e4b2ced57670043575e5f445080f884d1
+

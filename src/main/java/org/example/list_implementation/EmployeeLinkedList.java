@@ -1,7 +1,9 @@
-package org.example;
+package org.example.list_implementation;
+
+import org.example.Employee;
 
 public class EmployeeLinkedList {
-    private  EmployeeNode head;
+    private EmployeeNode head;
     private int size;
      public void addFront(Employee employee){
          EmployeeNode node = new EmployeeNode(employee);

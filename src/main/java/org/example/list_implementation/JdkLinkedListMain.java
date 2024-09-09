@@ -1,4 +1,6 @@
-package org.example;
+package org.example.list_implementation;
+
+import org.example.Employee;
 
 import java.util.Iterator;
 import java.util.LinkedList;

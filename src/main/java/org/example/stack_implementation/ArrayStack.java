@@ -1,10 +1,12 @@
-package org.example;
+package org.example.stack_implementation;
+
+import org.example.Employee;
 
 import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class ArrayStack {
-    private Employee [] stack;
+    private Employee[] stack;
     private int top;
     public ArrayStack(int capacity){
         stack = new Employee[capacity];

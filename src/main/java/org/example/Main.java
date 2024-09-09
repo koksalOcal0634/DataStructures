@@ -1,5 +1,11 @@
 package org.example;
 
+import org.example.list_implementation.EmployeeDoublyLinkedList;
+import org.example.list_implementation.EmployeeLinkedList;
+import org.example.stack_implementation.ArrayStack;
+
+import java.util.HashMap;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -66,6 +72,7 @@ public class Main {
         System.out.println("The first element is deleted");
         doubleLinkedList.removeFromFront();
         doubleLinkedList.printList();
+
 
 
 

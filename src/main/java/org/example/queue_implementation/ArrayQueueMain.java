@@ -1,4 +1,7 @@
-package org.example;
+package org.example.queue_implementation;
+
+import org.example.Employee;
+import org.example.queue_implementation.ArrayQueue;
 
 public class ArrayQueueMain {
     public static void main(String[] args) {

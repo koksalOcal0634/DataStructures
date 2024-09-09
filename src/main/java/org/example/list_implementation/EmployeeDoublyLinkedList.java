@@ -1,7 +1,9 @@
-package org.example;
+package org.example.list_implementation;
+
+import org.example.Employee;
 
 public class EmployeeDoublyLinkedList {
-    private  EmployeeNode head;
+    private EmployeeNode head;
     private EmployeeNode tail;
     private int size;
     public void addToFront(Employee employee){

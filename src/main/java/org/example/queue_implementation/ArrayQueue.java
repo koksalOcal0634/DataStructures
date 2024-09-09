@@ -1,6 +1,10 @@
-package org.example;
+package org.example.queue_implementation;
 
+import org.example.Employee;
+
+import java.util.Deque;
 import java.util.NoSuchElementException;
+import java.util.Stack;
 
 public class ArrayQueue {
         private  Employee[] queue;
@@ -12,14 +16,20 @@ public class ArrayQueue {
         }
         public void add(Employee employee){
                 // check the queue is full or not
-             if(back== queue.length){
+             if(size()== queue.length-1){
                      // reSize the array
                      Employee employee1[] = new Employee[2* queue.length];
                      // copy the old array with arrayCopy
                      System.arraycopy(queue,0,employee1,0,queue.length );queue = employee1;
 
              }
-             queue[back++] = employee;
+             queue[back] = employee;
+             if(back< queue.length-1){
+                     back++;
+             }
+             else{
+                     back = 0;
+             }
 
         }
         public boolean isEmpty(){
@@ -34,7 +44,7 @@ public class ArrayQueue {
                 }
                 Employee removedQueue = queue[front];
                 queue[front] = null;
-                front++;
+                front++; // new front will be the employee in the queue
                 if(size()==0){
                         back =0;
                         front = 0;
@@ -57,5 +67,6 @@ public class ArrayQueue {
                         System.out.println(queue[i]);
                 }
         }
+
 
 }

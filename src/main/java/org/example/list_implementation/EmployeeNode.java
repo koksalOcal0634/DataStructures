@@ -1,4 +1,6 @@
-package org.example;
+package org.example.list_implementation;
+
+import org.example.Employee;
 
 public class EmployeeNode {
     private Employee employee;
